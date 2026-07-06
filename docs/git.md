@@ -4,7 +4,7 @@ Part of [Cmdbook](../README.md).
 
 ## Table of Contents
 
-- [What is Git Commands?](#setup--config)
+- [What is Git Commands?](#what-is-git-commands?)
 - [Setup & Config](#setup--config)
 - [Starting a Project](#starting-a-project)
 - [Staging & Committing](#staging--committing)
