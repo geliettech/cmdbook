@@ -1,5 +1,7 @@
 # Cmdbook
 
+![Git](https://img.shields.io/badge/Git-Commands-orange) ![npm](https://img.shields.io/badge/npm-Commands-red) ![pnpm](https://img.shields.io/badge/pnpm-Commands-yellow) ![Yarn](https://img.shields.io/badge/Yarn-Commands-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+
 > A curated, no-nonsense cheat sheet for everyday **Git**, **npm**, **pnpm**, and **Yarn** commands.
 
 Stop googling the same command for the tenth time. Cmdbook collects the commands developers actually use day-to-day, organized by what you're trying to *do* rather than buried in an alphabetical list.

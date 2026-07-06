@@ -4,16 +4,16 @@ Thanks for considering a contribution! Cmdbook stays useful because people add t
 
 ## Ways to Contribute
 
-- **Add a missing command** — something you use regularly that isn't listed yet
-- **Improve a description** — make an existing entry clearer or more accurate
-- **Fix an error** — wrong flag, outdated syntax, typo, etc.
-- **Suggest structure** — better categories or organization (open an issue first for bigger changes)
+- **Add a missing command** - something you use regularly that isn't listed yet
+- **Improve a description** - make an existing entry clearer or more accurate
+- **Fix an error** - wrong flag, outdated syntax, typo, etc.
+- **Suggest structure** - better categories or organization (open an issue first for bigger changes)
 
 ## Before You Start
 
-For small fixes (typos, a command or two), just open a pull request directly.
+For small fixes (typos, a command or two), just open a pull request directly against the command `git` `npm` `pnpm` `yarn` branch.
 
-For anything bigger — new sections, restructuring, or adding a new tool entirely — please open an issue first so we can align before you put in the work.
+For anything bigger - new sections, restructuring, or adding a new tool entirely - please open an issue first so we can align before you put in the work.
 
 ## Making a Change
 
@@ -22,7 +22,7 @@ For anything bigger — new sections, restructuring, or adding a new tool entire
    ```bash
    git checkout -b add-git-worktree-command
    ```
-3. **Add your entry** to the relevant table in `README.md`, matching the existing format:
+3. **Add your entry** to the relevant file in `docs/` (`git.md`, `npm.md`, `pnpm.md`, or `yarn.md`), matching the existing format:
    ```markdown
    | `command here` | Short, clear description |
    ```
@@ -46,14 +46,14 @@ For anything bigger — new sections, restructuring, or adding a new tool entire
 
 ## Pull Request Checklist
 
-- [ ] My addition follows the existing table format
-- [ ] I didn't duplicate an existing entry
-- [ ] I checked the command actually works as described
-- [ ] My description is one line and clear to a newer developer
+- [ ] Our addition follows the existing table format
+- [ ] We don't duplicate an existing entry
+- [ ] We checked the command actually works as described
+- [ ] Our description is one line and clear to a newer developer
 
 ## Code of Conduct
 
-Be respectful, be constructive, and assume good intent. Disagreements about content are fine — just keep it about the content.
+This project follows a [Code of Conduct](./CODE_OF_CONDUCT.md). Be respectful, be constructive, and assume good intent. Disagreements about content are fine — just keep it about the content.
 
 ---
 
