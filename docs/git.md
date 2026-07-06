@@ -4,6 +4,7 @@ Part of [Cmdbook](../README.md).
 
 ## Table of Contents
 
+- [What is Git Commands?](#setup--config)
 - [Setup & Config](#setup--config)
 - [Starting a Project](#starting-a-project)
 - [Staging & Committing](#staging--committing)
@@ -15,6 +16,9 @@ Part of [Cmdbook](../README.md).
 - [Tags](#tags)
 
 ---
+
+## What is Git Commands?
+....
 
 ## Setup & Config
 
@@ -54,10 +58,12 @@ Part of [Cmdbook](../README.md).
 | `git checkout -b <branch>` | Create and switch to a new branch |
 | `git switch <branch>` | Switch branches (modern alternative to checkout) |
 | `git switch -c <branch>` | Create and switch to a new branch |
-| `git branch -d <branch>` | Delete a branch (safe) |
+| `git branch -d <branch>` | Delete a branch locally (safe) |
+| `git push origin -delete <branch>` | Delete a branch Remotely (safe) |
 | `git branch -D <branch>` | Force delete a branch |
 | `git merge <branch>` | Merge a branch into the current one |
 | `git rebase <branch>` | Reapply commits on top of another branch |
+| `git push origin <branch>` | Push and set upstream tracking of a branch |
 
 ## Syncing with Remotes
 
@@ -81,8 +87,9 @@ Part of [Cmdbook](../README.md).
 | `git reset --soft HEAD~1` | Undo last commit, keep changes staged |
 | `git reset --mixed HEAD~1` | Undo last commit, keep changes unstaged |
 | `git reset --hard HEAD~1` | Undo last commit, discard changes entirely |
-| `git revert <commit>` | Create a new commit that undoes a previous one |
+| `git revert <commit id>` | Create a new commit that undoes a previous one |
 | `git clean -fd` | Remove untracked files and directories |
+| `git cherry-pick <commit-hash>` | choose a commit from one branch and apply it into another |
 
 ## Stashing
 
@@ -114,3 +121,5 @@ Part of [Cmdbook](../README.md).
 | `git tag -a v1.0.0 -m "message"` | Create an annotated tag |
 | `git push origin v1.0.0` | Push a specific tag |
 | `git push origin --tags` | Push all tags |
+| `git tag -d v1.0.0` | delete tag locally |
+| `git push origin -d v1.0.0` | delete tag remotely |
