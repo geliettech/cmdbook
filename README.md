@@ -1,6 +1,6 @@
 # Cmdbook
 
-![Git](https://img.shields.io/badge/Git-Commands-orange) ![npm](https://img.shields.io/badge/npm-Commands-red) ![pnpm](https://img.shields.io/badge/pnpm-Commands-yellow) ![Yarn](https://img.shields.io/badge/Yarn-Commands-blue) ![License](https://img.shields.io/badge/License-MIT-green) ![cmdbook](https://img.shields.io/badge/open-source-orange)
+![Git](https://img.shields.io/badge/Git-Commands-orange) ![npm](https://img.shields.io/badge/npm-Commands-red) ![pnpm](https://img.shields.io/badge/pnpm-Commands-yellow) ![Yarn](https://img.shields.io/badge/Yarn-Commands-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 
 > A curated, no-nonsense cheat sheet for everyday **Git**, **npm**, **pnpm**, and **Yarn** commands.
 
