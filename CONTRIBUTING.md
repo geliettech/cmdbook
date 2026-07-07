@@ -9,13 +9,9 @@ Thanks for considering a contribution! Cmdbook stays useful because people add t
 - **Fix an error** - wrong flag, outdated syntax, typo, etc.
 - **Suggest structure** - better categories or organization (open an issue first for bigger changes)
 
-## Before You Start
+## How to Contribute
 
-For small fixes (typos, a command or two), just open a pull request directly against the command `git` `npm` `pnpm` `yarn` branch.
-
-For anything bigger - new sections, restructuring, or adding a new tool entirely - please open an issue first so we can align before you put in the work.
-
-## Making a Change
+### Small fixes (typos, a command or two)
 
 1. **Fork** the repo and clone your fork locally
 2. **Create a branch** for your change:
@@ -30,10 +26,31 @@ For anything bigger - new sections, restructuring, or adding a new tool entirely
    ```bash
    git commit -m "Add git worktree command"
    ```
-5. **Push** and open a pull request:
+5. **Push** your branch:
    ```bash
    git push origin add-git-worktree-command
    ```
+6. **Open a pull request** describing what you added and why
+7. A maintainer will review your PR and may suggest changes before merging
+
+**Pull request checklist:**
+- [ ] My addition follows the existing table format
+- [ ] I didn't duplicate an existing entry
+- [ ] I checked the command actually works as described
+- [ ] My description is one line and clear to a newer developer
+
+### Bigger changes (new sections, restructuring, a new tool entirely)
+
+1. **Open an issue first** describing what you'd like to change and why, so we can align before you put in the work
+2. Once there's agreement on the approach:
+   - **Fork** the repo and clone your fork locally
+   - **Create a branch** for your change:
+     ```bash
+     git checkout -b add-new-tool-section
+     ```
+3. Make your changes, following the [Style Guidelines](#style-guidelines) below
+4. **Commit** and **push** your branch, then **open a pull request** that references the original issue
+5. A maintainer will review and work with you on any adjustments before merging
 
 ## Style Guidelines
 
@@ -43,13 +60,6 @@ For anything bigger - new sections, restructuring, or adding a new tool entirely
 - Keep alphabetical/logical order within a table where possible
 - If a command has a commonly-used shorthand or flag combo, prefer that over the verbose form (e.g. `git switch -c` over separate `branch` + `checkout` steps) — but feel free to note alternatives if genuinely useful
 - Match the tone of existing entries: plain, direct, no fluff
-
-## Pull Request Checklist
-
-- [ ] Our addition follows the existing table format
-- [ ] We don't duplicate an existing entry
-- [ ] We checked the command actually works as described
-- [ ] Our description is one line and clear to a newer developer
 
 ## Code of Conduct
 
