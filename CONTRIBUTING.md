@@ -1,6 +1,6 @@
-# Contributing to CLIAtlas
+# Contributing to CLI Command Book
 
-Thanks for considering a contribution! CLIAtlas stays useful because people add the commands they actually use. Here's how to help.
+Thanks for considering a contribution! CLI Command Book stays useful because people add the commands they actually use. Here's how to help.
 
 ## Ways to Contribute
 

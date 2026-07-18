@@ -2,7 +2,7 @@
 
 ## Our Pledge
 
-CLIAtlas is a community reference, and we want it to be a welcoming place for anyone who wants to contribute - whether that's fixing a typo or adding a whole new section. We pledge to make participation in this project a harassment-free experience for everyone, regardless of experience level, background, or identity.
+CLI Command Book is a community reference, and we want it to be a welcoming place for anyone who wants to contribute - whether that's fixing a typo or adding a whole new section. We pledge to make participation in this project a harassment-free experience for everyone, regardless of experience level, background, or identity.
 
 ## Our Standards
 
