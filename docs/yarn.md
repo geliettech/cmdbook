@@ -1,6 +1,10 @@
 # Yarn Commands
 
-Part of [Cmdbook](../README.md).
+Part of [CLI Command Book](../README.md).
+
+## What is Yarn?
+
+Yarn is a package manager for JavaScript, originally created as a faster, more secure alternative to npm. It manages project dependencies via `package.json` and supports features like workspaces for monorepos and deterministic installs via lockfiles.
 
 | Command | Description |
 |---|---|

@@ -1,6 +1,6 @@
 # Package Manager Command Comparison
 
-Part of [Cmdbook](../README.md). A quick side-by-side for switching between [npm](./npm.md), [pnpm](./pnpm.md), and [Yarn](./yarn.md).
+Part of [CLI Command Book](../README.md). A quick side-by-side for switching between [npm](./npm.md), [pnpm](./pnpm.md), and [Yarn](./yarn.md).
 
 | Action | npm | pnpm | Yarn |
 |---|---|---|---|

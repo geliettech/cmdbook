@@ -1,6 +1,10 @@
 # npm Commands
 
-Part of [Cmdbook](../README.md).
+Part of [CLI Command Book](../README.md).
+
+## What is npm?
+
+npm (Node Package Manager) is the default package manager for Node.js. It's used to install, manage, and publish JavaScript packages, and comes bundled automatically when you install Node.js.
 
 | Command | Description |
 |---|---|

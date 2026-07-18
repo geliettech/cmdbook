@@ -1,6 +1,10 @@
 # pnpm Commands
 
-Part of [Cmdbook](../README.md).
+Part of [CLI Command Book](../README.md).
+
+## What is pnpm?
+
+pnpm is a fast, disk-space-efficient package manager for JavaScript. Unlike npm and Yarn, it uses a single shared content-addressable store for packages, saving them once on disk and linking them into projects instead of duplicating files.
 
 | Command | Description |
 |---|---|
