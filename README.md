@@ -27,21 +27,19 @@ Contributions are welcome! See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to a
 
 The project could eventually include:
 
-✅ Git
-✅ npm
-✅ pnpm
-✅ Yarn
-⏳ Bun
-⏳ Docker
-⏳ Linux
-⏳ powerShell
-⏳ Vercel
-⏳ GitHub CLI
-⏳ SSH
-⏳ PostgreSQL
-⏳ Kubernetes
-⏳ VS Code CLI
-⏳ GitHub Actions
+- ✅ Git
+- ✅ npm
+- ✅ pnpm
+- ✅ Yarn
+- ⏳ Bun
+- ⏳ Docker
+- ⏳ Linux
+- ⏳ powerShell
+- ⏳ Vercel
+- ⏳ GitHub CLI
+- ⏳ SSH
+- ⏳ Kubernetes
+- ⏳ VS Code CLI
 
 ## License
 
