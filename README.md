@@ -4,7 +4,7 @@
 
 The developer's reference for everyday CLI commands.
 
-> CLI Command Book is a fast, searchable reference for the commands developers use every day. Whether you're working with **Git**, **npm**, **pnpm**, or **Yarn**, CLI Command Book helps you find the right command quickly—with explanation.
+> CLI Command Book is a fast, searchable reference for the commands developers use every day. Whether you're working with **Git**, **npm**, **pnpm**, or **Yarn**, CLI Command Book helps you find the right command quickly with explanation.
 
 
 Stop googling the same command for the tenth time. Start shipping. CLI Command Book collects the commands developers actually use day-to-day, organized by what you're trying to *do* rather than buried in an alphabetical list.
